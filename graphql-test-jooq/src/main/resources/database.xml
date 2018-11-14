@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<information_schema xmlns="http://www.jooq.org/xsd/jooq-meta-3.7.11.xsd">
+    <schemata>
+        <schema>
+            <schema_name>crm</schema_name>
+        </schema>
+    </schemata>
+
+    <tables>
+        <table>
+            <table_schema>crm</table_schema>
+            <table_name>customers</table_name>
+        </table>
+    </tables>
+
+    <columns>
+
+        <column>
+            <table_schema>crm</table_schema>
+            <table_name>customers</table_name>
+            <column_name>id</column_name>
+            <data_type>SERIAL</data_type>
+            <numeric_precision>7</numeric_precision>
+            <ordinal_position>1</ordinal_position>
+            <is_nullable>false</is_nullable>
+        </column>
+        <column>
+            <table_schema>crm</table_schema>
+            <table_name>customers</table_name>
+            <column_name>name</column_name>
+            <data_type>VARCHAR</data_type>
+            <character_maximum_length>60</character_maximum_length>
+            <ordinal_position>2</ordinal_position>
+            <is_nullable>false</is_nullable>
+        </column>
+
+    </columns>
+
+</information_schema>

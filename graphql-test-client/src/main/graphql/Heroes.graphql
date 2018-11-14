@@ -1,0 +1,18 @@
+query BookToBook{
+  bookToBook {
+    STOCK
+    store {
+      NAME
+    }
+    book {
+      TITLE
+      ID
+      PUBLISHED_IN
+      author {
+        FIRST_NAME
+        LAST_NAME
+        DISTINGUISHED
+      }
+    }
+  }
+}
